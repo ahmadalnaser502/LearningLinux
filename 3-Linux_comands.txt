@@ -1,0 +1,56 @@
+date
+>>Mon Nov 11 12:56:07 PM +03 2024 
+date +%x
+>>11/11/2024
+date +%R
+>>12:55
+
+###########################################################################
+passwd
+
+###########################################################################
+history
+history -c  -- clear history  
+!! 			-- last command in history 
+!5 			-- comand number 5 in history 
+ctrl + R 	-- revers sertvh in history commands 
+
+###########################################################################
+clear 
+ctrl + L -- clear workspace 
+ctrl + R -- revers sertvh in history commands
+ctrl + A -- move carser to begin 
+ctrl + E -- move carser to end 
+ctrl + U -- delete left carser 
+ctrl + K -- delete right carser
+
+###########################################################################
+file <objecct name >
+file passwd
+>>passwd: ASCII text
+
+###########################################################################
+
+cat <file name >
+
+less <file name >
+options with or in less commands:
+1- arow up or down or enter 
+2- space for move between pages 
+3- / for search 
+
+head -n 10 <file name >
+tail -n 10 <file name >
+
+###########################################################################
+ls -alhtr 
+tree -L 1 <path>
+which <command>  -- for show binary path for this command 
+pwd
+
+cd <path>
+cd ..
+cd - 
+cd ~   => cd /home/ahmad
+
+######################################################################
